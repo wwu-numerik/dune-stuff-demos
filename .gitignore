@@ -1,0 +1,4 @@
+.spyder*
+PATH
+path.py
+*.pyc
