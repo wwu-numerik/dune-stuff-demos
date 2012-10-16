@@ -8,8 +8,11 @@ cd $BASEDIR \
 
 SRCDIR=$BASEDIR/local/src
 
-mkdir -p $SRCDIR \
-  || $(echo "Error, could not create directory: $SRCDIR"  >&2; exit 1)
+mkdir -p $SRCDIR
+if [ $? != 0 ] ; then
+  echo "Error, could not create directory: $SRCDIR"  >&2
+  exit 1
+fi
 
 function download {
   SRC="${1}"
@@ -19,8 +22,11 @@ function download {
     echo " done (does already exist)"
   else
     echo ""
-    wget -O $DEST $SRC \
-      || $(echo "Error, could not download: '$DEST'"  >&2; exit 1)
+    wget -O $DEST $SRC
+    if [ $? != 0 ] ; then
+      echo echo "Error, could not download: '$DEST'"
+      exit 1
+    fi
   fi
 } # function download
 
@@ -32,8 +38,8 @@ cd $SRCDIR \
 cd $SRCDIR \
   && download http://bitbucket.org/eigen/eigen/get/3.1.0.tar.gz eigen-3.1.0.tar.gz
 
-# boost
-cd $SRCDIR \
-  && download http://wwwmath.uni-muenster.de/u/felix.albrecht/mirror/boost_1_50_0.tar.gz boost_1_50_0.tar.gz
+# # boost
+# cd $SRCDIR \
+#   && download http://wwwmath.uni-muenster.de/u/felix.albrecht/mirror/boost_1_50_0.tar.gz boost_1_50_0.tar.gz
 
 exit 0
