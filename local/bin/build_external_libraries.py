@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import logging
-logging.debug("blah")
+#import logging
+#logging.debug("blah")
 from os.path import (join, exists)
 import os
 import shutil
