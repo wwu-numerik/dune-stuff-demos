@@ -1,3 +1,4 @@
 CONFIGURE_FLAGS="CXXFLAGS='-fno-strict-aliasing -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall' \
   --enable-fieldvector-size-is-method \
-  --disable-documentation "
+  --with-boost=/opt/boost-1.49 \
+  --disable-documentation  INKSCAPE=no"
