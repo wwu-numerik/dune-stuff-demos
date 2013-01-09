@@ -1,5 +1,2 @@
-.spyder*
-PATH
-path.py
-*.pyc
+PATH.sh
 demos
