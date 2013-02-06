@@ -9,7 +9,7 @@
 	url = http://users.dune-project.org/repositories/projects/dune-istl.git
 [submodule "dune-fem"]
 	path = dune-fem
-	url = http://users.dune-project.org/repositories/projects/dune-fem.git
+	url = http://users.dune-project.org/repositories/projects/dune-fem-unofficial.git
 [submodule "dune-localfunctions"]
 	path = dune-localfunctions
 	url = http://users.dune-project.org/repositories/projects/dune-localfunctions.git
@@ -21,7 +21,7 @@
 	url = http://users.dune-project.org/repositories/projects/dune-stuff.git
 [submodule "dune-pdelab"]
 	path = dune-pdelab
-	url = http://users.dune-project.org/repositories/projects/dune-pdelab.git
+	url = http://users.dune-project.org/repositories/projects/dune-pdelab-unofficial.git
 [submodule "local/bin"]
 	path = local/bin
 	url = http://users.dune-project.org/repositories/projects/dune-demos-bin.git
