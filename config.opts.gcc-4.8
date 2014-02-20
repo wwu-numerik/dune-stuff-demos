@@ -1,7 +1,7 @@
 CONFIGURE_FLAGS="
-  CC=gcc-4.8 \
-  CXX=g++-4.8 \
-  F77=gfortran-4.8 \
+  CC=/usr/lib/gcc-snapshot/bin/gcc \
+  CXX=/usr/lib/gcc-snapshot/bin/g++ \
+  F77=/usr/lib/gcc-snapshot/bin/gfortran \
   CXXFLAGS='-fno-strict-aliasing -DDUNE_STUFF_FUNCTIONS_TO_LIB -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1' \
   --enable-fieldvector-size-is-method \
   --disable-documentation \
