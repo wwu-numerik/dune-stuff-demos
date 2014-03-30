@@ -2,8 +2,10 @@ CONFIGURE_FLAGS="
   CC=gcc-4.7 \
   CXX=g++-4.7 \
   F77=gfortran-4.7 \
-  CXXFLAGS='-fno-strict-aliasing -DDUNE_STUFF_FUNCTIONS_TO_LIB -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1' \
+  CXXFLAGS='-fno-strict-aliasing -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1' \
   --enable-fieldvector-size-is-method \
   --disable-documentation \
   INKSCAPE=no \
 "
+CMAKE_FLAGS="-Wno-dev"
+BUILDDIR=build-gcc-4.7-debug
