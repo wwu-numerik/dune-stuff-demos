@@ -2,8 +2,9 @@ CONFIGURE_FLAGS="
   CC=gcc \
   CXX=g++ \
   F77=gfortran \
-  CXXFLAGS='-fno-strict-aliasing -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1' \
-  --enable-fieldvector-size-is-method \
+  CXXFLAGS='-fno-strict-aliasing -DDUNE_STUFF_FUNCTIONS_TO_LIB -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1' \
+  --enable-parallel \
+  --with-alugrid=/opt/dune/modules/alugrid/alugrid-1.52 \
   --disable-documentation \
   INKSCAPE=no \
 "
