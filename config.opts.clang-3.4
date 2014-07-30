@@ -1,0 +1,11 @@
+CONFIGURE_FLAGS=" \
+  CC=clang-3.4 \
+  CXX=clang++-3.4 \
+  F77=gfortran \
+  CXXFLAGS='-fno-strict-aliasing -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall -ftemplate-backtrace-limit=0 -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1' \
+  --enable-fieldvector-size-is-method \
+  --disable-documentation \
+  INKSCAPE=no \
+"
+CMAKE_FLAGS="-Wno-dev"
+BUILDDIR=build-clang-debug
