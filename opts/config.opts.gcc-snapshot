@@ -2,7 +2,7 @@ CONFIGURE_FLAGS="
   CC=/usr/lib/gcc-snapshot/bin/gcc \
   CXX=/usr/lib/gcc-snapshot/bin/g++ \
   F77=/usr/lib/gcc-snapshot/bin/gfortran \
-  CXXFLAGS='-fno-strict-aliasing -DDUNE_STUFF_FUNCTIONS_TO_LIB -DDEBUG -g3 -ggdb -std=c++0x -Wextra -Wall -DDUNE_GRID_EXPERIMENTAL_GRID_EXTENSIONS=1' \
+    CXXFLAGS='-DDEBUG -g3 -ggdb -std=c++14 -Wextra -Wall' \
   --enable-parallel \
   --disable-documentation \
   INKSCAPE=no \
