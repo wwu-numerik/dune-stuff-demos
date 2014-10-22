@@ -14,6 +14,3 @@ cc = icc
 file = opts/config.opts.clang
 cc = clang
 
-[gcc_snapshot] 
-file = opts/config.opts.gcc-snapshot
-cc = /usr/lib/gcc-snapshot/bin/gcc
