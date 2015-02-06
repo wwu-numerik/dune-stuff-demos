@@ -14,3 +14,7 @@ cc = icc
 file = opts/config.opts.clang
 cc = clang
 
+[variants]
+# name = semicolon seperated list of directory names to delete prior to buildbot config
+no_fem = dune-fem
+minimal = dune-grid;dune-localfunctions;dune-fem;dune-typetree;dune-pdelab;dune-istl
