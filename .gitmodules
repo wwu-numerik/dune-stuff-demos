@@ -28,3 +28,6 @@
 [submodule "dune-typetree"]
 	path = dune-typetree
 	url = http://git.dune-project.org/repositories/dune-typetree
+[submodule "config.opts"]
+	path = config.opts
+	url = http://users.dune-project.org/repositories/projects/dune-config-opts.git
