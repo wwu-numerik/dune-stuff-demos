@@ -1,10 +1,10 @@
 [gcc_4.8] 
 file = config.opts/gcc-4.8
-cc = gcc
+cc = gcc-4.8
 
 [gcc_4.8_NO-MPI]
 file = config.opts/gcc-no_mpi
-cc = gcc
+cc = gcc-4.8
 
 [icc_14]
 file = config.opts/icc
@@ -13,6 +13,10 @@ cc = icc
 [clang_3.5]
 file = config.opts/clang-3.5
 cc = clang-3.5
+
+[gcc_5.0]
+file = opts/gcc-snapshot 
+cc = /usr/lib/gcc-snapshot/bin/gcc
 
 [variants]
 # name = semicolon seperated list of directory names to delete prior to buildbot config
