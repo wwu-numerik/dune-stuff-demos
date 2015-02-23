@@ -1,17 +1,17 @@
 [gcc_4.8] 
-file = opts/config.opts.gcc
+file = config.opts/gcc-4.8
 cc = gcc
 
 [gcc_4.8_NO-MPI]
-file = opts/config.opts.gcc-no_mpi
+file = config.opts/gcc-no_mpi
 cc = gcc
 
 [icc_14]
-file = opts/config.opts.icc
+file = config.opts/icc
 cc = icc
 
 [clang_3.5]
-file = opts/config.opts.clang
+file = config.opts/clang-3.5
 cc = clang-3.5
 
 [variants]
