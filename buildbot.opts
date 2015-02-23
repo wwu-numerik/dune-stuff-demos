@@ -12,7 +12,7 @@ cc = icc
 
 [clang_3.5]
 file = opts/config.opts.clang
-cc = clang
+cc = clang-3.5
 
 [variants]
 # name = semicolon seperated list of directory names to delete prior to buildbot config
