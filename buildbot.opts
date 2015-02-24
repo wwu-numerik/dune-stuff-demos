@@ -3,7 +3,7 @@ file = config.opts/gcc-4.8
 cc = gcc-4.8
 
 [gcc_4.8_NO-MPI]
-file = config.opts/gcc-no_mpi
+file = config.opts/gcc-4.8-no_mpi
 cc = gcc-4.8
 
 [icc_14]
