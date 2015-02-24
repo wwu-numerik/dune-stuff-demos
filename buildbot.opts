@@ -15,7 +15,7 @@ file = config.opts/clang-3.5
 cc = clang-3.5
 
 [gcc_5.0]
-file = opts/gcc-snapshot 
+file = config.opts/gcc-snapshot 
 cc = gcc-snapshot
 
 [variants]
