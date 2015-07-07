@@ -18,7 +18,7 @@
 	url = http://git.dune-project.org/repositories/dune-geometry
 [submodule "dune-stuff"]
 	path = dune-stuff
-	url = http://users.dune-project.org/repositories/projects/dune-stuff.git
+	url = https://github.com/wwu-numerik/dune-stuff
 [submodule "dune-pdelab"]
 	path = dune-pdelab
 	url = http://users.dune-project.org/repositories/projects/dune-pdelab-unofficial.git
