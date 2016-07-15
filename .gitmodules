@@ -40,3 +40,6 @@
 [submodule "dune-localfunctions"]
 	path = dune-localfunctions
 	url = http://gitlab.dune-project.org/core/dune-localfunctions.git
+[submodule "dune-xt-common"]
+	path = dune-xt-common
+	url = https://github.com/dune-community/dune-xt-common.git
