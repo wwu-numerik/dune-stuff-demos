@@ -1,36 +1,30 @@
 [submodule "dune-common"]
 	path = dune-common
-	url = http://git.dune-project.org/repositories/dune-common
+	url = http://gitlab.dune-project.org/core/dune-common.git
 [submodule "dune-grid"]
 	path = dune-grid
-	url = http://git.dune-project.org/repositories/dune-grid
-[submodule "dune-istl"]
-	path = dune-istl
-	url = http://git.dune-project.org/repositories/dune-istl
+	url = http://gitlab.dune-project.org/core/dune-grid.git
+[submodule "dune-geometry"]
+	path = dune-geometry
+	url = http://gitlab.dune-project.org/core/dune-geometry.git
 [submodule "dune-fem"]
 	path = dune-fem
 	url = http://users.dune-project.org/repositories/projects/dune-fem-unofficial.git
-[submodule "dune-localfunctions"]
-	path = dune-localfunctions
-	url = http://git.dune-project.org/repositories/dune-localfunctions
-[submodule "dune-geometry"]
-	path = dune-geometry
-	url = http://git.dune-project.org/repositories/dune-geometry
 [submodule "dune-stuff"]
 	path = dune-stuff
-	url = https://github.com/wwu-numerik/dune-stuff
+	url = https://github.com/wwu-numerik/dune-stuff.git
 [submodule "dune-pdelab"]
 	path = dune-pdelab
 	url = http://users.dune-project.org/repositories/projects/dune-pdelab-unofficial.git
 [submodule "local/bin"]
 	path = local/bin
-	url = http://users.dune-project.org/repositories/projects/dune-demos-bin.git
+	url = https://github.com/dune-community/local-bin.git
 [submodule "dune-typetree"]
 	path = dune-typetree
-	url = http://git.dune-project.org/repositories/dune-typetree
-[submodule "config.opts"]
+	url = http://gitlab.dune-project.org/pdelab/dune-typetree.git
+[submodule "configs"]
 	path = config.opts
-	url = http://users.dune-project.org/repositories/projects/dune-config-opts.git
+	url = https://github.com/wwu-numerik/dune-config-opts.git
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/wwu-numerik/scripts.git
@@ -40,3 +34,9 @@
 [submodule "dune-testtools"]
 	path = dune-testtools
 	url = https://gitlab.dune-project.org/quality/dune-testtools.git
+[submodule "dune-istl"]
+	path = dune-istl
+	url = http://gitlab.dune-project.org/core/dune-istl.git
+[submodule "dune-localfunctions"]
+	path = dune-localfunctions
+	url = http://gitlab.dune-project.org/core/dune-localfunctions.git
